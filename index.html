@@ -1,37 +1,45 @@
+<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
-<html lang="en">
-
-<style>
-    h1 { text-align: center;
-        background-color: black;
-        color: white;
-        margin: 40px;
-    }
-</style>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activity: Basic Student Info</title>
+
+  <meta charset="UTF-8">
+  <title>1.2.9 Exercise</title>
+
+  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 
+<body>
+  <header>
     <h1>Student Bio</h1>
+  </header>
 
-    <h2>Alex Saiyan</h2>
-            <img src="https://via.placeholder.com/200" alt="Alex Saiyan" ./> 
+  <div class="container">
 
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Suspendisse mi orci, scelerisque a molestie nec, ultricies quis enim. 
-            Nulla sollicitudin orci vel leo iaculis, a tempus est sollicitudin. 
-            Quisque malesuada risus eget est tincidunt, ac mattis arcu sagittis. 
-            <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    <section id="main-bio">
 
-    <h3>Contact Info</h3>
-        <ul>
-            <li>Email: <strong><a href="#">anverch@gmail.com</a></strong></li>
-            <li>GitHub: <strong><a href="#">Anverch</a></strong></li>
-            <li>Portfolio: <strong><a href="#">Coming Soon</a></strong></li>
-        </ul>
+      <h2>Alex Saiyan</h2>
+      <img src="./assets/faf.jpg" alt="Your Image" id="bio-image">
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+
+    </section>
+
+    <section id="contact-info">
+
+      <h2>Contact Info</h2>
+
+      <ul>
+        <li><strong>Email:</strong> <a href="#">anverch@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">anverch</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+
+    </section>
+
+  </div>
+
 </body>
 
 </html>
